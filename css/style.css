@@ -483,6 +483,10 @@ ol {
 	padding-left: 80px;
 }
 
+.site-logo img {
+	height: 35px;
+}
+
 .header-controls {
 	float: right;
 	padding: 16px 25px 0 50px;
@@ -506,7 +510,7 @@ ol {
 .main-menu {
 	list-style: none;
 	float: right;
-	display: none;
+	display: block;
 }
 
 .main-menu li {
