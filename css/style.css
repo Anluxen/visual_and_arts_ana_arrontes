@@ -90,6 +90,11 @@ ol {
 /*---------------------
   Helper CSS
 -----------------------*/
+.portfolio-gallery > div:hover {
+	transition: 0.4s all;
+	transform: scale(1.05);
+	z-index: 999;
+}
 
 .section-title {
 	text-align: center;
@@ -102,7 +107,7 @@ ol {
 .set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top center;
+	background-position: center center;
 }
 
 .spad {
