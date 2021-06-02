@@ -96,6 +96,10 @@ ol {
 	z-index: 999;
 }
 
+.portfolio-3-section .portfolio-gallery > div:hover {
+	transform: scale(1);
+}
+
 .section-title {
 	text-align: center;
 }
