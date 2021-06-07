@@ -84,6 +84,7 @@ $(window).on('load', function() {
 		openedSymbol: '<i class="fa fa-angle-up"></i>'
 	});
 
+	/*
 	$('.nav-switch-btn').on('click', function() {
 		if(localStorage.getItem("navMenu") == null) {
 			localStorage.setItem("navMenu", "show");
@@ -96,7 +97,7 @@ $(window).on('load', function() {
 
 	if(localStorage.getItem("navMenu") == "show") {
 		$('.main-menu').slideDown(400);
-	}
+	}*/
 
 
 	/*------------------
