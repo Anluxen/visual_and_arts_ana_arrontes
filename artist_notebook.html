@@ -132,7 +132,10 @@
 					</div>
 				</div>
 				<div class="col-lg-6 p-0">
-					<div class="about-bg set-bg" data-setbg="img/blocks/block2/artist_notebook/6.jpeg"></div>
+					<div class="owl-carousel page-six-carousel">
+						<div class="about-bg set-bg" data-setbg="img/blocks/block2/artist_notebook/6.jpeg"></div>
+						<div class="about-bg set-bg" data-setbg="img/blocks/block2/artist_notebook/16.jpeg"></div>
+					</div>
 				</div>
 				<div class="col-lg-6 p-0">
 					<div class="about-bg set-bg" data-setbg="img/blocks/block2/artist_notebook/14.jpeg"></div>
@@ -204,6 +207,23 @@
 	<script src="js/instafeed.min.js"></script>
 	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/main.js"></script>
+
+	<style>
+		.page-six-carousel .owl-dots {
+			display: none;
+		}
+	</style>
+	<script>
+		$(document).ready(function(){
+			$(".page-six-carousel").owlCarousel({
+				loop:true,
+				nav:false,
+				autoplay: true,
+				autoplayTimeout: 2500,
+				items: 1
+			});
+		});
+	</script>
 
 	</body>
 </html>
